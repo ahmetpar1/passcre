@@ -6,21 +6,17 @@ se = [".",":",";","_","-","=","+",",","/"]
 Sifre = ""
 sayı = int(input("kaç haneli şifre olsun >> "))
 while(True):
-    t = len(Sifre) # sifre karakter sayısını t deyişkenine adıyor 
-    if sayı != t: # sayı deyişkeni t eşit deyilse devam et
-        r = random.randint(1,4) # burda 1,4 kadar bir sayı belirler karekter sıralaması yapar
-        if r == 1: # 1,4 kadar sayıda 1 geldiyse büyük harf karakteri gelir
-            ibh = random.choice(bh) # random.choice(lsite)= listeden bir karakter seçer
-            Sifre += ibh # ibh deyişkenini karakteri Sifre karakterine verir
+    t = len(Sifre)
+    if sayı != t:
+        r = random.randint(1,4)
+        if r == 1: 
+            Sifre += random.choice(bh)
         elif r == 2:
-            ikh = random.choice(kh)
-            Sifre += ikh
+            Sifre += random.choice(kh)
         elif r == 3:
-            inu = random.choice(nu)
-            Sifre += inu
+            Sifre += random.choice(nu)
         elif r == 4:
-            ise = random.choice(se)
-            Sifre += ise
+            Sifre += random.choice(se)
         else:
             continue
     elif sayı == t:
