@@ -1,4 +1,4 @@
 ﻿# passcre
-##password create = şifre oluşturma </br>
-##en güvenli şifre oluşturma yöntemi 
-en güvenli yoldan şifrelerinizi oluşturun
+##password create = parola oluşturma </br>
+##en güvenli parola oluşturma yöntemi 
+en güvenli yoldan parolarınızı oluşturun
