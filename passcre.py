@@ -2,7 +2,7 @@
 import random # random modülü
 
 try :
-    sayı = int(input("kaç haneli şifre olsun >> "))
+    sayı = int(input("kaç haneli parola olsun >> "))
 except (ValueError):
     print("!!! LÜTFEN SAYI GİRİNİZ !!!")
     input("DEVAM ETMEK İÇİN ENTER TUŞUNA BASIN")
